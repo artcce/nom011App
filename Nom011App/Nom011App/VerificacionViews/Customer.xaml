@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nom011App.VerificacionViews.Customer" Icon="ic_people" >
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Clave" x:Name="ClaveEntry"></Entry>
+            <Entry Placeholder="RFC" x:Name="RFCEntry"></Entry>
+            <Entry Placeholder="Razon Social" x:Name="RazonSocialEntry"></Entry>
+            <Entry Placeholder="Calle" x:Name="CalleEntry"></Entry>
+            <Entry Placeholder="Colonia" x:Name="ColoniaEntry"></Entry>
+            <Entry Placeholder="Ciudad" x:Name="CiudadEntry"></Entry>
+            <Entry Placeholder="Telefono" x:Name="TelefonoEntry"></Entry>
+            <Entry Placeholder="Solicitante" x:Name="SolicitanteEntry"></Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

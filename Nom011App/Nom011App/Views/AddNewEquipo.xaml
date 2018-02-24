@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nom011App.Views.AddNewEquipo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nuevo Equipo"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="JP"></Label>
+            <Entry Text="{Binding JP}"></Entry>
+            <Label Text="PP5"></Label>
+            <Entry Text="{Binding PP5}"></Entry>
+            <Label Text="PP10"></Label>
+            <Entry Text="{Binding PP10}"></Entry>
+            <Label Text="PP20"></Label>
+            <Entry Text="{Binding PP20}"></Entry>
+            <Button x:Name="btnGuardar" Text="Guardar"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

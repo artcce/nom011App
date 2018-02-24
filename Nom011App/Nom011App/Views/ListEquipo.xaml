@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nom011App.Views.ListEquipo">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+
+                <Label Text="Equipo"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <ListView x:Name="lstEquipos">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Vertical" Padding="20">
+                                    <Label Text="{Binding IdEquipo}"></Label>
+                                    <Label Text="{Binding JP}"></Label>
+                                    <Label Text="{Binding PP5}"></Label>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <Button x:Name="btnAddEquipo" Text="Agregar Nuevo"></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
