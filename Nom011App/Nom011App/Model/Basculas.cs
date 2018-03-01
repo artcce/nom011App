@@ -24,7 +24,10 @@ namespace Nom011.ModelDatabase
         public int IdTipoVerificacion { get; set; }
         public int IdHolograma { get; set; }
         public int IdDistintivo { get; set; }
-
+        [Ignore]
+        public string BasculaView => $"{Marca}-{Modelo}-{Serie}";
+        [Ignore]
+        public string HologramaNumero => "123";
         public Basculas()
         {
             IdBascula = 0;

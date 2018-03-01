@@ -18,12 +18,12 @@ namespace Nom011.ModelDatabase
         public string HoraFinal { get; set; }
         public string Apoyo { get; set; }
         public string Apoyo2 { get; set; }
-        public int IdCliente { get; set; }
-        public string Latitud { get; set; }
-        public string Longitud { get; set; }
-        public string Este { get; set; }
-        public string Uso { get; set; }
-        public int IdEquipo { get; set; }
+        public int IdCliente { get; set; } //
+        public string Latitud { get; set; } //
+        public string Longitud { get; set; } //
+        public string Este { get; set; } //
+        public string Uso { get; set; } //
+        public int IdEquipo { get; set; } //
         [Ignore]
         public List<Basculas> Basculas { get; set; }
     }

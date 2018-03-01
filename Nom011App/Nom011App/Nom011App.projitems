@@ -46,6 +46,18 @@
     <Compile Include="$(MSBuildThisFileDirectory)Model\Verificacion.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Verificador.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\ISQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VerificacionViews\AddBascula.xaml.cs">
+      <DependentUpon>AddBascula.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)VerificacionViews\Basculas.xaml.cs">
+      <DependentUpon>Basculas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)VerificacionViews\BasculasView.xaml.cs">
+      <DependentUpon>BasculasView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)VerificacionViews\Conclusion.xaml.cs">
+      <DependentUpon>Conclusion.xaml</DependentUpon>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)VerificacionViews\Customer.xaml.cs">
       <DependentUpon>Customer.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -207,5 +219,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)VerificacionViews\AddBascula.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)VerificacionViews\Basculas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)VerificacionViews\BasculasView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)VerificacionViews\Conclusion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 </Project>

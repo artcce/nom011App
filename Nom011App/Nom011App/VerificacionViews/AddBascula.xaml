@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nom011App.VerificacionViews.AddBascula">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Button Text="Aceptar" x:Name="btnAddBascula">
+
+                </Button>
+                <Picker x:Name="TipoBasculaPicker"></Picker>
+                <Entry Placeholder="Marca" x:Name="MarcaEntry"></Entry>
+                <Entry Placeholder="Modelo" x:Name="ModeloEntry"></Entry>
+                <Entry Placeholder="Serie" x:Name="SerieEntry"></Entry>
+                <Entry Placeholder="AlcMax1" x:Name="CalleEntry"></Entry>
+                <Entry Placeholder="AlcMax2" x:Name="ColoniaEntry"></Entry>
+                <Entry Placeholder="Div1" x:Name="CiudadEntry"></Entry>
+                <Entry Placeholder="Div2" x:Name="TelefonoEntry"></Entry>
+                <Entry Placeholder="Solicitante" x:Name="SolicitanteEntry"></Entry>
+                <Picker x:Name="TipoVerificacionPicker"></Picker>
+                <Picker x:Name="HologranaPicker"></Picker>
+                <Picker x:Name="DistintivoPicker"></Picker>
+               
+            </StackLayout>
+            
+        </ScrollView>
+    
+    </ContentPage.Content>
+</ContentPage>
